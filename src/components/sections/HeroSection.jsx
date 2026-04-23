@@ -1,4 +1,5 @@
 import { ArrowRight, Mail, Sparkles } from "lucide-react";
+import heroWorkspaceImage from "../../../assets/hero-workspace.png";
 
 export function HeroSection({ hero }) {
   return (
@@ -41,7 +42,7 @@ export function HeroSection({ hero }) {
       </div>
 
       <div className="hero-visual">
-        <img src="/assets/hero-workspace.png" alt="" />
+        <img src={heroWorkspaceImage} alt="" />
         <div className="visual-card insight-card">
           <Sparkles size={18} />
           <div>
